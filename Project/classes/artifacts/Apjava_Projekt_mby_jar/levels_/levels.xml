@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="levels_schema.xsd">
+    <map row="5" col="5" name="Karta 4!">
+        <tile x="0" y="0" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="1" y="0" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="2" y="0" class="Model.Units.StartTile" status="START"/>
+        <tile x="3" y="0" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="4" y="0" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+
+        <tile x="0" y="1" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="1" y="1" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="2" y="1" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="3" y="1" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="4" y="1" class="Model.Units.WalkableTile" status="WALKABLE"/>
+
+        <tile x="0" y="2" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="1" y="2" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="2" y="2" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="3" y="2" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="4" y="2" class="Model.Units.WalkableTile" status="WALKABLE"/>
+
+        <tile x="0" y="3" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="1" y="3" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="2" y="3" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="3" y="3" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="4" y="3" class="Model.Units.WalkableTile" status="WALKABLE"/>
+
+        <tile x="0" y="4" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="1" y="4" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="2" y="4" class="Model.Units.GoalTile" status="GOAL"/>
+        <tile x="3" y="4" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="4" y="4" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+    </map>
+    <map row="5" col="5" name="Karta 1!">
+        <tile x="0" y="0" class="Model.Units.StartTile" status="START"/>
+        <tile x="1" y="0" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="2" y="0" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="3" y="0" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="4" y="0" class="Model.Units.WalkableTile" status="WALKABLE"/>
+
+        <tile x="0" y="1" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="1" y="1" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="2" y="1" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="3" y="1" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="4" y="1" class="Model.Units.WalkableTile" status="WALKABLE"/>
+
+        <tile x="0" y="2" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="1" y="2" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="2" y="2" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="3" y="2" class="Model.Units.WalkableTile" status="WALKABLE"/>
+        <tile x="4" y="2" class="Model.Units.WalkableTile" status="WALKABLE"/>
+
+        <tile x="0" y="3" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="1" y="3" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="2" y="3" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="3" y="3" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="4" y="3" class="Model.Units.WalkableTile" status="WALKABLE"/>
+
+        <tile x="0" y="4" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="1" y="4" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="2" y="4" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="3" y="4" class="Model.Units.BuildableTile" status="NONWALKABLE"/>
+        <tile x="4" y="4" class="Model.Units.GoalTile" status="GOAL"/>
+    </map>
+    <map row="4" col="4" name="Karta 2!">
+        <tile class="Model.Units.StartTile" x="0" y="0" status="START"/>
+        <tile class="Model.Units.WalkableTile" x="0" y="1" status="WALKABLE"/>
+        <tile class="Model.Units.WalkableTile" x="0" y="2" status="WALKABLE"/>
+        <tile class="Model.Units.WalkableTile" x="0" y="3" status="WALKABLE"/>
+        <tile class="Model.Units.WalkableTile" x="1" y="3" status="WALKABLE"/>
+        <tile class="Model.Units.WalkableTile" x="2" y="3" status="WALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="1" y="0" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="2" y="0" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="3" y="0" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="1" y="1" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="2" y="1" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="3" y="1" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="1" y="2" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="2" y="2" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="3" y="2" status="NONWALKABLE"/>
+        <tile class="Model.Units.GoalTile" x="3" y="3" status="GOAL"/>
+    </map>
+    <map row="4" col="4" name="Karta 3!"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="levels_schema.xsd">
+        <tile class="Model.Units.StartTile" x="0" y="0" status="START"/>
+        <tile class="Model.Units.WalkableTile" x="0" y="1" status="WALKABLE"/>
+        <tile class="Model.Units.WalkableTile" x="0" y="2" status="WALKABLE"/>
+        <tile class="Model.Units.WalkableTile" x="0" y="3" status="WALKABLE"/>
+        <tile class="Model.Units.WalkableTile" x="1" y="3" status="WALKABLE"/>
+        <tile class="Model.Units.WalkableTile" x="2" y="3" status="WALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="1" y="0" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="2" y="0" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="3" y="0" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="1" y="1" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="2" y="1" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="3" y="1" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="1" y="2" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="2" y="2" status="NONWALKABLE"/>
+        <tile class="Model.Units.BuildableTile" x="3" y="2" status="NONWALKABLE"/>
+        <tile class="Model.Units.GoalTile" x="3" y="3" status="GOAL"/>
+    </map>
+</maps>

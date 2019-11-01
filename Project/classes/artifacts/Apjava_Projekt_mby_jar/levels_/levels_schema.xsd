@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- List with levels in levelsType -->
+    <xs:complexType name="mapsType">
+        <xs:choice>
+            <xs:element name="map" type="mapType" maxOccurs="unbounded"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:element name="maps" type="mapsType"/>
+
+    <!--define level type -->
+    <xs:complexType name="mapType">
+        <xs:choice minOccurs="4" maxOccurs="unbounded">
+            <xs:element name="tile" type="tileType" maxOccurs="unbounded"/>
+        </xs:choice>
+        <xs:attribute name="row" type="xs:integer" use="required"/>
+        <xs:attribute name="col" type="xs:integer" use="required"/>
+        <xs:attribute name="name" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:element name="map" type="mapType"/>
+
+    <!--tiles shares the same attributes -->
+    <xs:complexType name="tileType">
+        <xs:attribute name="x" type="xs:integer" use="required"/>
+        <xs:attribute name="y" type="xs:integer" use="required"/>
+        <xs:attribute name="class" type="xs:string" use="required"/>
+        <xs:attribute name="status" type="status" use="required"/>
+    </xs:complexType>
+
+    <!-- Requires a valid status -->
+    <xs:simpleType name="status">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:enumeration value="WALKABLE"/>
+            <xs:enumeration value="GOAL"/>
+            <xs:enumeration value="START"/>
+            <xs:enumeration value="NONWALKABLE"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--define  all possible tiles-->
+    <xs:element name="tile" type="tileType"/>
+</xs:schema>

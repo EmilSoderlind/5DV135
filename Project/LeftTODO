@@ -1,0 +1,135 @@
+Checklist for the game:
+-----------------------------------------------------------------------------------------------------------------------
+    [ ] - Spelet ska använda sig av flera trådar för att låta flera delar
+          jobba parallellt.
+-----------------------------------------------------------------------------------------------------------------------
+
+
+    [ ] - Spelets uppdateringsintervall skall vara tidsberoende och inte beroende
+          av datorns hastighet.
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Vid "vinst" eller "förlust" så ska användaren presenteras med valet om
+          att spela igen eller avsluta spelet.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - GUI:t skall använda sig av Swing-biblioteket.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - All rendering skall ske så att flimmer undviks.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Det ska finnas minst två menyer i en JMenuBar.
+        [ ] - En meny (JMenu) med valen:
+
+            [ ] - New Game/Restart
+                    Om inget spel har startats så heter menypunkten tex. "New Game" och vid klick
+                    så startar den ett nytt spel. Om spelet redan är igång så ska menypunkten
+                    heta tex. "Restart" och spelet börjar om från början."restart level"
+
+            [ ] - Pause/Resume
+                    Menypunkten kan tex. heta "Pause" om spelet är igång och när man klickar på
+                    menypunkten så ska alla trupper och torn stanna och inga knappar ska gå att
+                    klicka på. Om spelet är i "Pause"-läge så ska menypunkten byta namn till tex.
+                    "Resume" och vid klick så ska spelet återupptas där det sist var, dvs.
+                    trupperna skall fortsätta röra på sig samt att användaren kan skicka ut fler trupper.
+
+            [ ] - Mute
+                    Om ni har ljud i er applikation ska detta menyval finnas med. Det ska stoppa
+                    uppspelandet av alla ljud. Då den här menyn väljs ska menyalternativet bytas till
+                    "Unmute" och vice versa.
+
+            [ ] - Quit
+                    Avsluta spelet.
+
+        [ ] - Den andra menyn ska innehålla:
+            [ ] - About Berättar i en dialogruta vem som gjort spelet och när.
+            [ ] - Help Berättar i en dialogruta hur man spelar.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Minst två typer av trupper ska implementeras med olika förmågor
+          (klarar olika antal träffar, kostar olika mycket, har olika hastighet, etc.).
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Spelet ska ha flera banor. Banorna ska se olika ut, exempelvis hur trupperna kan röra sig.
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Flera banor skall lagras i en fil som heter "levels.xml".
+          XML-formatet skall följa och valideras mha ett XML-Schema som ni själva specificerar.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Varje bana skall innehålla zoner där datorn kan placera ut torn, vägar längs vilka trupper kan röra sig,
+    samt regler för banan, exempelvis hur många trupper som måste komma igenom för att användaren ska vinna.
+    Allt detta ska stå i XML-filen under varje bana.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - När användaren "vinner" en bana så skall spelet fråga användaren om den
+          vill spela samma bana en gång till eller fortsätta till nästa bana.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Det ska finnas (möjlighet till, samt exempel på) flera möjliga vägsträckor
+          per bana för trupperna.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Alla resultat ska sparas centralt på en server mha en en databas. Highscores
+          ska kunna visas (baserat på tid, poäng, nivå, etc.).
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Ges ett argument vid körning ska detta tolkas som ett filnamn och läsas in
+          istället för levels.xml och på så vis kan fler banor göras och köras utan
+          att modifiera i spelets katalog.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Banor ska kunna innehålla (och det ska finnas exempel på banor som innehåller)
+          "växlar" som gör att en väg kan mynna ut i en T-korsning där spelaren klickar
+           på ex. en knapp för att välja åt vilket håll trupperna ska gå.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Skapa ett interface som har en metod "landOn". Till metoden ska skickas lämpliga
+          parametrar så att man kan skapa nya områdesklasser där områdena kan påverka vad
+          som händer i spelet. Ni bestämmer själva vilken information landOn ska få tillgång
+          til genom att bestämma vilka parametrar som skickas till denna.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - De olika områdena på en bana skall finnas i egna klasser. Varje sådan klass kan
+          implementera interfacet beskrivet ovan, och minst en klass ska göra det. Klasserna
+          ska laddas in via reflection så att man endast behöver skriva en ny klass och
+          ange dess namn i filen för att få en ny typ av område.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Vid start av en ny bana så skall programmet läsa in de klass-filer som XML-filen har
+          deklarerat för sina områden (klass för ett visst område ska alltså vara specat i XML-filen)
+          och när truppmedlemmarna går på ett visst område så ska denna områdesklass funktion "landOn"
+          anropas och någonting skall hända, förutsatt att den implementerat ovan nämnda interface.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Ett speciellt område utöver de beskrivna hittills skall finnas. Tex: Teleporters, när en
+          truppmedlem går på en viss ruta så flyttas den till en annan på vägen.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Teleportertrupper ska implementeras som kostar mer, men ska kunna lägga ner
+          teleporterplattor när användaren väljer, och på så vis kommer trupperna att
+          kunna slippa förflytta sig lika långt.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+    [ ] - Spelet samt de filer som behövs för grundspelet skall finnas i en JAR-fil som
+          heter "AntiTD.jar" som är körbar med kommandot java -jar AntiTD.jar
+
+-----------------------------------------------------------------------------------------------------------------------

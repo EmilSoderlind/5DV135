@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SYSTEM>
+<maps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="./level_schema.xsd">
+    <map row="20" col="20" tileSize="32" name="Snobben1337">
+        <tileset id="1" class="Model.Units.BuildableTile" status="NONWALKABLE" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="5" class="Model.Units.WalkableTile" status="WALKABLE" image="../../Downloads/KenneyRPGpack/PNG/rpgTile015.png"/>
+        <tileset id="9" class="Model.Units.WalkableTile" status="START" image="../../Downloads/KenneyRPGpack/PNG/rpgTile013.png"/>
+        <tileset id="13" class="Model.Units.WalkableTile" status="GOAL" image="../../Downloads/KenneyRPGpack/PNG/rpgTile024.png"/>
+            <data>
+                1,1,1,1,1,1,1,1,9,1,1,1,1,1,1,1,1,1,1,1,
+                1,1,1,1,1,1,1,1,5,1,1,5,5,5,5,5,5,5,1,1,
+                1,1,1,1,1,1,1,1,5,1,1,5,1,1,1,1,1,5,1,1,
+                1,5,5,5,5,5,5,5,5,5,5,5,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,5,5,5,5,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,5,5,5,5,5,5,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,5,5,5,5,5,5,5,5,5,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,1,1,1,5,5,5,5,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,5,1,1,
+                1,5,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,5,1,1,
+                1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,1,
+                1,1,1,1,1,1,1,1,1,1,1,13,1,1,1,1,1,1,1,1
+            </data>
+    </map>
+    <map row="20" col="20" tileSize="32" name="Laxarnas galax 5000">
+        <tileset id="1" class="Model.Units.BuildableTile" status="NONWALKABLE" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="5" class="Model.Units.WalkableTile" status="WALKABLE" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="9" class="Model.Units.WalkableTile" status="START" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="13" class="Model.Units.WalkableTile" status="GOAL" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+            <data>
+                1,1,1,1,1,1,1,1,1,9,1,1,1,1,1,1,1,1,1,1,
+                1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,
+                1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,
+                1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,
+                1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,
+                1,1,1,1,1,1,1,1,1,5,5,5,5,5,5,5,5,5,5,1,
+                1,5,5,5,5,5,5,5,1,1,1,1,1,1,1,1,1,1,5,1,
+                1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,5,1,
+                1,5,1,1,1,1,1,5,5,5,5,5,5,5,5,5,5,5,5,1,
+                1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+                1,5,5,5,5,5,5,5,5,5,5,1,1,1,1,1,1,1,1,1,
+                1,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,
+                1,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,
+                1,1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,
+                1,1,5,1,1,1,5,5,5,5,5,5,5,5,5,1,1,1,5,1,
+                1,1,5,1,1,1,5,1,1,1,5,1,1,1,5,1,1,1,5,1,
+                1,1,5,1,1,1,5,1,5,5,5,5,5,1,5,1,1,1,5,1,
+                1,1,5,1,1,1,5,1,5,1,1,1,5,1,5,1,1,1,5,1,
+                1,1,5,5,5,5,5,1,5,1,13,1,5,1,5,5,5,5,5,1,
+                1,1,1,1,1,1,1,1,5,5,5,5,5,1,1,1,1,1,1,1
+            </data>
+        </map>
+    <map row="20" col="20" tileSize="32" name="Das ist die beste">
+        <tileset id="1" class="Model.Units.BuildableTile" status="NONWALKABLE" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="5" class="Model.Units.WalkableTile" status="WALKABLE" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="9" class="Model.Units.WalkableTile" status="START" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="13" class="Model.Units.WalkableTile" status="GOAL" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+            <data>
+                9,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+                5,5,1,5,5,5,1,5,5,5,1,5,5,5,5,5,5,5,1,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,1,5,1,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,5,5,1,5,1,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,5,5,1,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,1,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,5,5,5,13,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,5,5,5,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,5,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,5,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,5,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,5,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,5,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,5,1,
+                1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,1,1,1,5,1,
+                1,5,5,5,1,5,5,5,1,5,5,5,1,5,5,5,5,5,5,1,
+                1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+            </data>
+        </map>
+    <map row="8" col="8" tileSize="80" name="8x8 kan va kul">
+        <tileset id="1" class="Model.Units.BuildableTile" status="NONWALKABLE" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="8" class="Model.Units.WalkableTile" status="WALKABLE" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="9" class="Model.Units.WalkableTile" status="START" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+        <tileset id="13" class="Model.Units.WalkableTile" status="GOAL" image="../../Downloads/KenneyRPGpack/PNG/rpgTile019.png"/>
+            <data>
+                1,1,1,1,1,1,8,13,
+                1,1,1,1,8,8,8,1,
+                1,8,8,8,8,1,1,1,
+                1,8,1,1,1,1,1,1,
+                1,8,8,8,8,1,1,1,
+                1,8,1,1,8,1,1,1,
+                1,8,8,8,8,1,1,1,
+                1,1,1,1,9,1,1,1
+            </data>
+    </map>
+</maps>
+
+
